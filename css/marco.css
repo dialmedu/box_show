@@ -1,0 +1,55 @@
+.contenedor {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    height: 700px;
+}
+
+.imagen_mapa {
+    width: 2400px;
+    position: relative;
+    /* top: -115px; */
+    /* left: calc(50% - 145px); */
+}
+
+.marco {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.celuar__imagen {
+    margin: 100px auto;
+    width: 320px;
+    display: block;
+    height: 500px;
+    z-index: 200;
+    position: relative;
+}
+
+.fondo {
+    position: fixed;
+    top: 115px;
+    overflow: hidden;
+    width: 290px;
+    height: 490px;
+    left: calc(50vw - 145px);
+    z-index: 100;
+    /* z-index: 300; */
+    /* overflow: visible; */
+}
+
+.fondo__imagen.imagen_mapa {
+    top: -107px;
+    left: calc(-37.5vw);
+    opacity: 1;
+}
+
+.coordenadas {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    font-size: xx-large;
+    color: white;
+}
